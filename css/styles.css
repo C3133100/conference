@@ -301,9 +301,14 @@ svg {
   vertical-align: middle;
 }
 
-table {
-  caption-side: bottom;
-  border-collapse: collapse;
+table, th, td {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 caption {
